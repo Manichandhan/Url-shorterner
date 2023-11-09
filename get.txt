@@ -1,0 +1,20 @@
+get
+http://localhost:7000/api/all
+http://localhost:7000/api/findUrl/:shortid
+
+post
+http://localhost:7000/api/shorten
+
+delete 
+http://localhost:7000/api/deleteUrl/:shortid
+
+user register
+
+post
+http://localhost:7000/api/auth/signup
+http://localhost:7000/api/auth/signIn
+
+delete
+/signout
+
+
